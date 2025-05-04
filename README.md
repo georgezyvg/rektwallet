@@ -20,10 +20,10 @@ This generates the file dataSet.txt which is full of signed transactions. (used 
 
 
 ### To test the nonce for collision 
-python3 testNonce.py
+```python3 testNonce.py
 [!!!] Duplicate r found at index 1048575: 97793243503830974537813184346131505324470061312903243101092203215109981519107
 Total unique r values: 1048575
-
+```
 
 ### to find collision in the dataset 
 python3 analyzeDataset.py
