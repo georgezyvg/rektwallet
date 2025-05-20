@@ -4,7 +4,7 @@ from rektWallet.vulnerable_btc_wallet import *
 wallet = VulnerableBitcoinWallet()
 
 
-number_of_sigs = 2_000_000
+number_of_sigs = 5
 
 wallet = VulnerableBitcoinWallet()
 print("Public Key:", wallet.get_public_key())
